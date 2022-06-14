@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  back:
+    build: .
+    container_name: collab-backend
+    volumes:
+      - .:/home/node/app
